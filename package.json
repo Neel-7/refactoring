@@ -1,0 +1,24 @@
+{
+  "name": "refactoring",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neel-7/refactoring.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Neel-7/refactoring/issues"
+  },
+  "homepage": "https://github.com/Neel-7/refactoring#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "description": ""
+}
