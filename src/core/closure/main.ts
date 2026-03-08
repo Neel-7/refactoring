@@ -15,7 +15,6 @@ document.getElementById("size-12")!.onclick = size12;
 document.getElementById("size-14")!.onclick = size14;
 document.getElementById("size-16")!.onclick = size16;
 
-
 // Counter
 
 function counter() {
@@ -36,11 +35,11 @@ function counter() {
 
     value() {
       return privateValue;
-    }
-  }
+    },
+  };
 }
 
-document.querySelectorAll(".counter").forEach(counterEl => {
+document.querySelectorAll(".counter").forEach((counterEl) => {
   const myCounter = counter();
 
   const counterVal = counterEl.querySelector(".counter-value");
@@ -54,10 +53,10 @@ document.querySelectorAll(".counter").forEach(counterEl => {
   decBtn?.addEventListener("click", () => {
     myCounter.decrement();
     updateUI();
-  })
+  });
 
   incBtn?.addEventListener("click", () => {
     myCounter.increment();
     updateUI();
   });
-})
+});
