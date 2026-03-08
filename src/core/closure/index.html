@@ -1,26 +1,51 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="container">
     <div>
       <h2>Button Size Change with Closure Principle</h2>
 
-      <button id="size-12">12</button>
-      <button id="size-14">14</button>
-      <button id="size-16">16</button>
+      <div class="size-buttons">
+        <button id="size-12">12</button>
+        <button id="size-14">14</button>
+        <button id="size-16">16</button>
+      </div>
 
       <p id="text">This is some text.</p>
     </div>
 
-    <div>
-      <p>Niloy</p>
+    <hr />
+
+    <div class="counter">
+      <h2>Counter 1</h2>
+      <div class="counter-container">
+        <button class="decrement">-</button>
+        <span class="counter-value">0</span>
+        <button class="increment">+</button>
+      </div>
     </div>
 
+    <div class="counter">
+      <h2>Counter 2</h2>
+      <div class="counter-container">
+        <button class="decrement">-</button>
+        <span class="counter-value">0</span>
+        <button class="increment">+</button>
+      </div>
+    </div>
+
+    <hr />
+
+
     <script src="../../../dist/core/closure/main.js"></script>
-  </body>
+</body>
+
 </html>
